@@ -1,0 +1,28 @@
+{
+  "name": "graphql-starwars",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/main.js"
+  },
+  "author": "John Hewson",
+  "license": "BSD",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphiql": "^0.7.8",
+    "graphql": "^0.6.2",
+    "morgan": "^1.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
+}

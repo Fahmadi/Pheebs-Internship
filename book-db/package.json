@@ -1,0 +1,16 @@
+{
+  "name": "book-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fateme ahmadi",
+  "license": "ISC",
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "mongoose": "^5.3.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "pishi-server",
+      "script": "./index.js",
+      "merge_logs": true,
+      "instances": 4,
+      "max_memory_restart": "200M"
+    }
+  ]
+}

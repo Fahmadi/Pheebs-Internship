@@ -1,0 +1,9 @@
+
+
+Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine…..  Chrome V8 engine is a Google’s open source high-performance JavaScript engine written in C++ and used in Google Chrome, the open source projects….
+
+V8 engine works on Windows and Linux systems… and can be used to build fast and scalable applications…
+
+This brief tutorial is going to show students and new users how to easily install the latest Node.js and NMP
+ packages on Ubuntu 16.04 / 18.04 LTS servers… Although Node.js comes in Ubuntu default repositories,
+ if you want to get the latest version, you’ll have to add its official PPA…

@@ -1,0 +1,37 @@
+{
+  "name": "pishi-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest --runInBand --bail --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ioredis": "^3.2.2",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "sharp": "^0.19.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "supertest": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "app.js",
+      "api.js",
+      "config.js",
+      "redis.js",
+      "router.js"
+    ]
+  }
+}

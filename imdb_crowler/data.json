@@ -1,0 +1,3 @@
+ReferenceError: movie is not defined
+    at main (/home/fateme/imdb_crowler/index.js:87:64)
+    at <anonymous>

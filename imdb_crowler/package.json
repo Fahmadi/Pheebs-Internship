@@ -1,0 +1,22 @@
+{
+  "name": "imdb_crowler",
+  "version": "1.0.0",
+  "description": "crowler on IMDB website",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.6",
+    "nodemon": "^1.18.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Fateme Ahmadi",
+  "license": "ISC"
+}
